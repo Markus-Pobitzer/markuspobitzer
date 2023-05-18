@@ -120,7 +120,7 @@
                     </p>
                     <p>
                         Software engineering always felt so natural to me and when creating websites, I feel a bit like an artist, but what caught my attention lately is
-                        the possibilities of machine learning. Ever since discovering the achivements of architectures like the U-Net, GANs and now NeRF I can
+                        the possibilities of machine learning. Ever since discovering the achivements of architectures like the U-Net, NeRFs and now Diffusion models I can
                         only look to a bright future of ever greater performing models. 
                     </p>
                     <p>
@@ -141,11 +141,12 @@
     <div class="card" style="margin-top: 5%;">
         <div class="card-body"> 
             <div class="row">   
-                <div class="col-md-4 col-lg-3 col-xxl-2"><img src="imgs/excavator_lego_NeRF.png" class="rounded float-start" alt="NeRF" style="width:200px;"></div>
+                <div class="col-md-4 col-lg-3 col-xxl-2"><img src="imgs/DreiZinnen_1.png" class="rounded float-start" alt="Generaed Image with Stable Diffusion" style="width:200px;"></div>
                 <div class="col-md-8 col-lg-9 col-xxl-10" style="padding-top: 10px; text-align: justify;">
-                    <h3>Current project: RGB-D NERF</h3>
-                    <p> Currently, I am working on extending <a href="https://arxiv.org/abs/2003.08934" target="_blank">NeRF</a> with depth information to reduce the needed number of input images.</p>
-                    <p>The image is an anecdote to NeRFs bulldozer.</p>
+                    <h3>Currently: Masterthesis at IBM research</h3>
+                    <p>The recent advances in diffusion models made it possible to generate and edit high-quality images with reasonable computational cost. As these models are
+                        trained on big image-text datasets, e.g. LAION-5B, they contain vast amounts of visual and text information. We want to investigate the possibility of exploitation of this information for data augmentation of small datasets
+                        in the setting of instance segmentation.</p>
                 </div>
             </div>
 
@@ -155,7 +156,90 @@
                         <div class="col-sm-6">
                         </div>
                         <div class="col-sm-6">
-                            <strong>Paper: </strong> WIP
+                            <strong>Thesis: </strong> WIP
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <strong>Supervisor: </strong> <a href="https://ch.linkedin.com/in/filip-janicki-225a0ba0?trk=public_profile_browsemap" target="_blank">Filip Janicki</a>
+                        </div>
+                        <div class="col-sm-6">
+                            <strong>Professor: </strong> <a href="https://scholar.google.com/citations?user=YYH0BjEAAAAJ&hl=de" target="_blank">Dr. Marc Pollefeys</a>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </div>
+    <!-- Current Work -->
+
+    <!-- Stable Diffusion RePaint -->
+    <div class="card" style="margin-top: 5%;">
+        <div class="card-body"> 
+            <div class="row">   
+                <div class="col-md-4 col-lg-3 col-xxl-2"><img src="imgs/giraffe_1.png" class="rounded float-start" alt="Inpainted Giraffe" style="width:200px;"></div>
+                <div class="col-md-8 col-lg-9 col-xxl-10" style="padding-top: 10px; text-align: justify;">
+                    <h3>Stable Diffusion RePaint</h3>
+                    <p>Bringing <a href="https://github.com/andreas128/RePaint" target="_blank">RePaints</a> capbilities to Stable Diffusion.
+                    </p>
+                    <p>
+                        Contributing to Hugging Faces <a href="https://github.com/huggingface/diffusers/tree/main" target="_blank">Diffusers</a> community pipeline.
+                    </p>
+                    <p> 
+                        Example usage can be found <a href="https://github.com/huggingface/diffusers/tree/main/examples/community#stable-diffusion-repaint" target="_blank">here</a>.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row" style="margin-top: 10px;">
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <strong>Code: </strong> <a href="https://github.com/huggingface/diffusers/blob/main/examples/community/stable_diffusion_repaint.py" target="_blank">Diffusers</a>
+                        </div>
+                        <div class="col-sm-6">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-sm-6">
+                        </div>
+                        <div class="col-sm-6">
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </div>
+    <!-- Stable Diffusion RePaint -->
+
+    <!-- RGB-D NeRF -->
+    <div class="card" style="margin-top: 5%;">
+        <div class="card-body"> 
+            <div class="row">   
+                <div class="col-md-4 col-lg-3 col-xxl-2"><img src="imgs/excavator_lego_NeRF.png" class="rounded float-start" alt="NeRF" style="width:200px;"></div>
+                <div class="col-md-8 col-lg-9 col-xxl-10" style="padding-top: 10px; text-align: justify;">
+                    <h3>RGB-D NERF</h3>
+                    <p>Virtual reality (VR) and augmented reality (AR) immerse the user in a new digital world. However, representing realworld scenes and objects digitally 
+                        is very challenging. Realistic lighting and high details are hard to model. An approach that solves some of the mentioned shortcomings was introduced 
+                        with Representing Scenes as Neural Radiance Fields for View Synthesis (<a href="https://arxiv.org/abs/2003.08934" target="_blank">NeRF</a>). NeRF can produce photorealistic novel views but needs many RGB input 
+                        images to train. In this work, we explore how NeRF can be extended with synthetic depth information to reduce the needed number of input images.</p>
+                </div>
+            </div>
+
+            <div class="row" style="margin-top: 10px;">
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <strong>Code: </strong> <a href="https://github.com/Markus-Pobitzer/RGBD-NeRF" target="_blank">GitHub</a>
+                        </div>
+                        <div class="col-sm-6">
+                            <strong>Paper: </strong> <a href="https://github.com/Markus-Pobitzer/RGBD-NeRF/blob/main/Resources/RGBD_NeRF.pdf" target="_blank">link</a>
                         </div>
                     </div>
                 </div>
@@ -173,7 +257,7 @@
             </div> 
         </div>
     </div>
-    <!-- Current Work -->
+    <!-- RGB-D NeRF -->
 
     <!-- CIL -->
     <div class="card"  style="margin-top: 5%;">
